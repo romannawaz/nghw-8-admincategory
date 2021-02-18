@@ -1,0 +1,30 @@
+{
+  "blogs": [
+    {
+      "title": "First Blog",
+      "text": "First Blog text",
+      "date": "2021-02-17T10:02:14.113Z",
+      "author": "Author",
+      "id": 1
+    },
+    {
+      "title": "Second Blog",
+      "text": "Second Blog text",
+      "date": "2021-02-17T14:55:43.940Z",
+      "author": "author",
+      "id": 2
+    }
+  ],
+  "category": [
+    {
+      "name": "pizza",
+      "id": 1,
+      "urlName": "pizza"
+    },
+    {
+      "name": "sushi",
+      "id": 3,
+      "urlName": "sushi"
+    }
+  ]
+}

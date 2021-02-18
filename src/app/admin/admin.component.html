@@ -1,0 +1,13 @@
+<div class="container mt-2">
+  <div class="d-flex align-items-start">
+    <div class="nav flex-column nav-pills col-1">
+      <a class="nav-link" [routerLink]="[ 'category' ]" routerLinkActive="bg-dark">Category</a>
+      <a class="nav-link">Products</a>
+      <a class="nav-link" [routerLink]="[ 'blog' ]" routerLinkActive="bg-dark">Blogs</a>
+    </div>
+
+    <div class="tab-content ms-5" style="width: 100%">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

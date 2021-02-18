@@ -1,0 +1,15 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-4 mt-3" *ngFor="let blog of BLOGS">
+      <img src="https://www.garciadepou.com/blog/wp-content/uploads/2016/08/pizza.jpg">
+
+      <p class="blog__description mt-1">{{ blog.date | date:'MMM d, YYYY' }} {{ blog.author }}</p>
+
+      <h2>{{ blog.title }}</h2>
+
+      <p class="blog__text">{{ blog.text }}</p>
+    </div>
+  </div>
+</div>
+
+<!-- https://www.garciadepou.com/blog/wp-content/uploads/2016/08/pizza.jpg -->
